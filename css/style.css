@@ -1,0 +1,42 @@
+*,	
+*::before,
+*:::after {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 1em;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+figure {
+	display: block;
+}
+img{
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;	
+}
+
+#img-div{
+	background: red;
+	padding: 25px;
+	margin: 0;
+}
+
+#title{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 3rem;
+	color: black;
+	text-align: center;
+	font-size: clamp(2rem, 12vw, 5rem);
+}
+
+figcaption{
+	color: white;
+	font-size: clamp(20px, 20vw, 40px);
+	text-align: center;
+}
